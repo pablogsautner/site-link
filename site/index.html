@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="funcao.js"></script>
+    <title>Meu Linktree</title>
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="header-title">Meu Linktree</h1>
+      <button class="header-button">Mais Opções</button>
+    </header>
+    <main class="main-content">
+      <div class="container-right">
+        <h2 class="section-title">Meus Links</h2>
+        <div class="circular-image-container"></div> <!-- Div para exibir a imagem -->
+        <ul class="links">
+
+        </ul>
+      </div>
+      <div class="container-left">
+        <h2 class="section-title">Editar Links</h2>
+        <div>
+          <label for="linkName">Nome do Link:</label>
+          <input type="text" id="linkName" placeholder="Nome do link" />
+        </div>
+        <div>
+          <label for="linkURL">URL do Link:</label>
+          <input type="text" id="linkURL" placeholder="URL do link" />
+        </div>
+        <button id="addLinkButton">Adicionar Link</button>
+        <input type="file" id="imageUpload" accept="image/*" />
+        <div>
+          <label for="backgroundColor">Cor de Fundo:</label>
+          <input type="color" id="backgroundColor" />
+      </div>
+      
+      </div>
+      
+      
+      
+    </main>
+    <footer class="footer">
+      <p>&copy; 2023 Meu Linktree</p>
+    </footer>
+  </body>
+</html>
+
